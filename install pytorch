@@ -1,0 +1,14 @@
+Es wurde ausschließlich Python 3.7.9 in einem virtual environment verwendet.
+
+# Für die pytorch-installation - run in terminal:
+# Für weitere Hilfe/Voraussetzungen: https://pytorch.org/get-started/locally/
+conda install pytorch torchvision torchaudio cudatoolkit=10.1 -c pytorch
+
+# Anschließend - run in terminal:
+pip install -r requirements.txt
+
+# Beispiele:
+Ein Datensatz ist bereits vorverarbeit im Ordner: Data/preprocessed enthalten.
+Das System kann mit diesen Daten trainiert werden.
+Ebenfalls ist ein trainiertes Model unter models/ExGen_Best.pth zu finden mit welchem Animationen generiert werden können
+Unter Generation/ sind zahlreiche Animationen welche mit dem Modell generiert worden sind zu finden.
